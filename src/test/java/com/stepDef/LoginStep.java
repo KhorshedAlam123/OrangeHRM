@@ -82,6 +82,9 @@ public class LoginStep {
 					  .withTimeout(30, TimeUnit.SECONDS)
 					  .pollingEvery(1, TimeUnit.SECONDS);
 			wait.until(ExpectedConditions.visibilityOf(logout)).click();
+			
+			
+			System.out.println("testing Git branch ");
 		}
 }
 
